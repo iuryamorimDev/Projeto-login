@@ -27,12 +27,15 @@ lilas: #5f2c82
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: .3s, .3s;
+    transition-timing-function: ease;
 
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37)
+    
  }
 
  section#login > div#imagem {
